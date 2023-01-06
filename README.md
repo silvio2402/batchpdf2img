@@ -1,6 +1,6 @@
 # Batch PDF -> image converter
 
-This is a simple script to convert PDF files to images.
+This is a simple command line utility to convert PDF files to images.
 
 ## Requirements
 
