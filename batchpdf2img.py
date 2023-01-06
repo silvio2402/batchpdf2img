@@ -21,6 +21,7 @@ def convert_pdfs_thread(doc_queue: queue.Queue, output_dir: str, format: str, ov
             last_page = int(info["Pages"])
             filename = f"{str(doc_i).rjust(4, '0')}-{last_page}.{format}"
             if os.path.exists(os.path.join(output_dir, filename)):
+                doc_queue.task_done()
                 continue
 
         @threadsafe
