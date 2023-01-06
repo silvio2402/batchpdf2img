@@ -1,11 +1,10 @@
 # Batch PDF -> image converter
 
-This is a simple script to convert PDF files to images.
+This is a simple command line utility to convert PDF files to images.
 
-## Requirements
+## Pre-requisites
 
 - Python 3
-- [pdf2image](https://pypi.org/project/pdf2image/) python package including poppler installed and in PATH
 
 ## Installation
 
